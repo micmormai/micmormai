@@ -1,0 +1,38 @@
+# MartCoin Smart Contract
+
+Este diretório contém o contrato inteligente oficial da **MartCoin (MART)**, um token ERC-20 pensado para ser a primeira moeda digital funcional em uma colônia marciana.
+
+## Informações do Contrato
+
+- **Nome do Token:** MartCoin
+- **Símbolo:** MART
+- **Padrão:** ERC-20
+- **Decimais:** 18
+- **Contrato implantado em:** Sepolia Testnet
+- **Endereço do contrato:** [`0x7f1E849baCBe88e1a5068D17caD94E2d180d15b3`](https://sepolia.etherscan.io/address/0x7f1E849baCBe88e1a5068D17caD94E2d180d15b3)
+
+## Funções Básicas
+
+- `totalSupply()` – Retorna o total de tokens emitidos
+- `balanceOf(address)` – Verifica o saldo de uma carteira
+- `transfer(to, amount)` – Transfere tokens para outro endereço
+- `approve(spender, amount)` – Aprova um endereço para gastar em seu nome
+- `transferFrom(from, to, amount)` – Transfere de um endereço aprovado
+
+## Como Interagir
+
+Você pode testar o contrato usando:
+
+- [Remix IDE](https://remix.ethereum.org) – Colando o código do arquivo `MartCoin.sol`
+- Carteiras como MetaMask para interagir com a testnet (Sepolia)
+- [Etherscan Sepolia](https://sepolia.etherscan.io/address/0x7f1E849baCBe88e1a5068D17caD94E2d180d15b3) – Para verificar transações ou interagir com a aba "Contract"
+
+## Próximos passos
+
+- [ ] Publicar versão final do contrato em mainnet
+- [ ] Realizar auditoria de segurança
+- [ ] Integrar à plataforma oficial da MartCoin
+
+---
+
+**A MartCoin é uma iniciativa experimental com foco em inovação para futuros ambientes extraterrestres.**
